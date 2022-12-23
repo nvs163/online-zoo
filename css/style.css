@@ -328,7 +328,7 @@ img {
   height: 37px;
   right: 12px;
   bottom: 13px;
-  background-image: url(./assets/image/icons/banana-bamboo_icon.svg);
+  background-image: url(../assets/image/icons/banana-bamboo_icon.svg);
   background-repeat: no-repeat;
 }
 .animals__card--meet-fish::after {
@@ -336,7 +336,7 @@ img {
   height: 38px;
   right: 8px;
   bottom: 14px;
-  background-image: url(./assets/image/icons/meet-fish_icon.svg);
+  background-image: url(../assets/image/icons/meet-fish_icon.svg);
   background-repeat: no-repeat;
 }
 .animals__image {
