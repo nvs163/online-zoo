@@ -203,7 +203,7 @@ img {
   height: 21px;
   left: 13.23px;
   top: 24.64px;
-  background-image: url(./assets/image/icons/bamboo.svg);
+  background-image: url(../assets/image/icons/bamboo.svg);
 }
 
 .nav {
@@ -263,7 +263,7 @@ img {
   height: 605px;
   left: 1400px;
   top: 792px;
-  background-image: url(./assets/image/bg/flower_foto1.png);
+  background-image: url(../assets/image/bg/flower_foto1.png);
   background-repeat: no-repeat;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -477,13 +477,13 @@ img {
   border-radius: 5px;
 }
 .how__icon--pay {
-  background-image: url(./assets/image/icons/pay.svg);
+  background-image: url(../assets/image/icons/pay.svg);
 }
 .how__icon--zoo {
-  background-image: url(./assets/image/icons/zoo.svg);
+  background-image: url(../assets/image/icons/zoo.svg);
 }
 .how__icon--monkey {
-  background-image: url(./assets/image/icons/monkey.svg);
+  background-image: url(../assets/image/icons/monkey.svg);
 }
 .how__text {
   font-style: normal;
@@ -663,16 +663,16 @@ img {
   margin-bottom: 10px;
 }
 .social__item--fb {
-  background-image: url(./assets/image/icons/fb-icon.svg);
+  background-image: url(../assets/image/icons/fb-icon.svg);
 }
 .social__item--tw {
-  background-image: url(./assets/image/icons/tw-icon.svg);
+  background-image: url(../assets/image/icons/tw-icon.svg);
 }
 .social__item--ig {
-  background-image: url(./assets/image/icons/ig-icon.svg);
+  background-image: url(../assets/image/icons/ig-icon.svg);
 }
 .social__item--yt {
-  background-image: url(./assets/image/icons/yt-icon.svg);
+  background-image: url(../assets/image/icons/yt-icon.svg);
 }
 
 .social__link {
