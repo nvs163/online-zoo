@@ -1,0 +1,74 @@
+.animals {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+
+  &__card {
+    position: relative;
+    max-width: 366px;
+    border: 1px solid #FE9013;
+    border-radius: 5px;
+
+    &--banana-bamboo::after, &--meet-fish::after {
+      content: '';
+      position: absolute;
+    }
+
+    &--banana-bamboo::after {
+      width: 33px;
+      height: 37px;
+      right: 12px;
+      bottom: 13px;
+      background-image: url(/assets/image/icons/banana-bamboo_icon.svg);
+      background-repeat: no-repeat;
+    }
+
+    &--meet-fish::after {
+      width: 48px;
+      height: 38px;
+      right: 8px;
+      bottom: 14px;
+      background-image: url(/assets/image/icons/meet-fish_icon.svg);
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    max-height: 366px;
+    margin-bottom: 8px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  &__name {
+    padding-left: 16px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-transform: uppercase;
+  }
+
+  &__description {
+    padding-left: 16px;
+    padding-bottom: 14px;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto 100px;
+  }
+}

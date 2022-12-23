@@ -1,0 +1,48 @@
+.header {
+  background-color: #000;
+  backdrop-filter: blur(2px);
+  color: #fff;
+
+  &__content {
+    display: flex;
+    padding: 14px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  display: block;
+  padding: 3.55px 4.75px;
+  margin-right: 63px;
+  max-width: 82px;
+  position: relative;
+  font-size: 19px;
+  line-height: 120%;
+  border: 1.18841px solid #FFFFFF;
+  text-align: center;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 21px;
+    left: 13.23px;
+    top: 24.64px;
+    background-image: url(/assets/image/icons/bamboo.svg);
+  }
+}
+
+.nav {
+  margin-right: 438px;
+}
+
+.menu {
+  display: flex;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 58px;
+    }
+  }
+}

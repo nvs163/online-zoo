@@ -1,0 +1,151 @@
+.footer {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: #111115;
+
+  color: #fff;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 36px;
+  }
+
+  &__button {
+    margin-bottom: 44px;
+    padding: 16px 50px;
+    border-radius: 5px;
+  }
+
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__menu {
+    display: flex;
+
+    &--item {
+      &:not(:last-child) {
+        margin-right: 58px;
+      }
+    }
+
+    &--active {
+      color: #F9804B;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+
+  &__design {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+  }
+}
+
+.form {
+  &__title {
+    margin-bottom: 14px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  &__input {
+    &-mail {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 10px 7px 10px 10px;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #BDBDBD;
+
+      background-color: rgba(0,0,0,0);
+      border: 1px solid #FE9013;
+    }
+
+    &-btn {
+      padding: 10px 39px;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+
+      color: #4B9200;
+
+      background-color: #F1F3F2;
+
+      border: 1px solid #4B9200;
+      border-radius: 5px;
+
+      cursor: pointer;
+    }
+  }
+}
+
+.design__name {
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social__item {
+  width: 26px;
+  height: 26px;
+
+  background-color: rgba(196, 196, 196, 0.5);
+  background-position: 50%;
+  background-repeat: no-repeat;
+
+  border-radius: 50%;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &--fb {
+    background-image: url(/assets/image/icons/fb-icon.svg);
+  }
+
+  &--tw {
+    background-image: url(/assets/image/icons/tw-icon.svg);
+  }
+
+  &--ig {
+    background-image: url(/assets/image/icons/ig-icon.svg);
+  }
+
+  &--yt {
+    background-image: url(/assets/image/icons/yt-icon.svg);
+  }
+}
+
+.social__link {
+  display: block;
+  padding-left: 38px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  color: #FFFFFF;
+}

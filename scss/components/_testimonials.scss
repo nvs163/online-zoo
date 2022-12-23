@@ -1,0 +1,91 @@
+.testimonials {
+  padding-top: 140px;
+  padding-bottom: 180px;
+
+  &__title {
+    margin-bottom: 55px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+
+    text-align: center;
+
+    color: #333B41;
+  }
+
+  &__scroll {
+    width: 599px;
+    height: 8px;
+    margin: 0 auto 31px;
+    border: 1px solid #FE9013;
+    border-radius: 5px;
+  }
+
+  &__scroll-line {
+    width: 20%;
+    height: 7px;
+    background-color: #FE9013;
+    border-radius: 5px;
+  }
+
+  &__button {
+    border-radius: 5px;
+  }
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 21px;
+
+  &__item {
+    flex: 0 1 25%;
+    max-height: 391px;
+    padding: 15px 15px 19px 16px;
+
+    background: #F1F3F2;
+    border-radius: 20px;
+
+    border: 2px solid rgba(254, 189, 171, 0.74);
+  }
+
+  &__user {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  &__foto {
+    display: inline-block;
+    margin-right: 10px;
+    max-width: 37px;
+    max-height: 37px;
+  }
+  
+  &__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+
+    color: #000000;
+  }
+
+  &__location, &__date {
+    display: inline-block;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+
+    color: #BDBDBD;
+  }
+
+  &__text {
+    max-height: 309px;
+    overflow: hidden;
+  }
+}

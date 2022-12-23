@@ -1,0 +1,48 @@
+.hero {
+  background-image: url(/assets/image/bg/Giant-Panda.jpg);
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    padding: 86px 0 100px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 465px;
+      height: 465px;
+      top: 12px;
+      right: 108px;
+      border-radius: 50%;
+
+      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    }
+  }
+
+  &__title {
+    margin-bottom: 60px;
+    max-width: 500px;
+    z-index: 1;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 107px;
+    line-height: 75%;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    &--yellow {
+      color: #FFEE2E;
+    }
+  }
+
+  &__button {
+    margin-right: 99px;
+  }
+}

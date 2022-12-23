@@ -1,0 +1,65 @@
+.backstage {
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 293px;
+    height: 605px;
+    left: 1400px;
+    top: 792px;
+
+    background-image: url(/assets/image/bg/flower_foto1.png);
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  &__content {
+    display: flex;
+    padding-top: 140px;
+    padding-bottom: 180px;
+  }
+
+  &__image {
+    max-width: 609px;
+    margin-right: 87px;
+  }
+
+  &__info {
+    max-width: 465px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+
+    color: #333B41;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+
+    color: #333B41;
+
+    &:not(:last-child) {
+      margin-bottom: 54px;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 40px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+
+    color: #333B41;
+  }
+}
